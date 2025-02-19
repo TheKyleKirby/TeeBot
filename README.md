@@ -16,15 +16,15 @@ TeeBot is a web-based Golf Score Tracking application that allows users to log i
 ## Technologies Used
 
 - **Frontend**:
--HTML
-- CSS (TailwindCSS)
-- JavaScript
-- jQuery
+  - HTML
+  - CSS (TailwindCSS)
+  - JavaScript
+  - jQuery
 - **Backend:**
-- PHP
-- MySQL (Database)
+  - PHP
+  - MySQL (Database)
 - **Software Requirements**:
-- XAMPP (for local development and database management)
+  - XAMPP (for local development and database management)
 
 ## Installation & Setup
 
@@ -71,17 +71,28 @@ $password = ""; // Default for XAMPP
 
 - Open your browser and go to:
 ```sh
-http://localhost/TeeBot/public/index.php
+http://localhost/TeeBot/public/login.php
 ```
 - Create an account and start using TeeBot!
 
-Contributing
+## Stretch Goals
+- Impliment user profiles to be edited to add as well as track handicaps, birthdays, profile pictures, about me sections, age, and more.
+- To make courses pre loaded so that you can see the length, teeboxes, pars, and hole yardage.
+- Make it available to save only 9 if played and not having to have a full 18 be filled out in order to save.
+- Show total scores and averages for rounds played.
+- Be able to connect users and add their scores to your card if you played with them, while having it save to their profile as well.
+- Add a GPS distance to see where you are on the hole.
+- Make a "Whats in the Bag" section where you can add and show off your clubs as well as the distance hit with each club.
+- A club selector tool that shows you what yardage you are from the hole and recommends to you a club to hit from your bag.
+- Turn it into an App!
+
+## Contributing
 
 If you'd like to contribute, feel free to fork the repo and submit a pull request.
 
-License
+## License
 
-This project is open-source and available under the MIT License.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This README provides a complete guide to setting up and running the project locally. Let me know if you need any modifications!
 
